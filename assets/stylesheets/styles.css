@@ -5,7 +5,9 @@
 */
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Comic Sans MS", cursive, sans-serif;*/
+  /*font-family: "Courier New", Courier, monospace;*/
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 body {
     background-color: powderblue;
@@ -29,24 +31,13 @@ img {
   max-width: 300px;
   max-height: 300px;
 }
-
-/*
-  ========================================
-  Blog
-  ========================================
-*/
-
-.blog-content {
-  text-align: justify;
-  word-spacing: 10px;
-}
 /*
   ========================================
   Menu bar
   ========================================
 */
 
-ul {
+.nav-wrapper ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -54,11 +45,11 @@ ul {
     background-color: #333;
 }
 
-li {
+.nav-wrapper li {
     float: left;
 }
 
-li a {
+.nav-wrapper li a {
     display: block;
     color: white;
     text-align: center;
@@ -67,13 +58,28 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.nav-wrapper li a:hover {
     background-color: #111;
 }
 
 .active {
   background-color: grey;
 }
+/*
+========================================
+Blog
+========================================
+*/
+
+.blog-content {
+  text-align: justify;
+  position: relative;
+}
+.container {
+  width:800px;
+  margin:0
+  auto;}
+
 
 /*
   ========================================
@@ -82,9 +88,23 @@ li a:hover {
 */
 
 .likes {
-  list-style-type: georgian;
+  list-style-type: none;
 }
 
-#like {
+.about {
   text-align: center;
+  padding-top: 75px;
+  font-size: 2em;
+}
+
+/*
+  ========================================
+  Contact
+  ========================================
+*/
+
+.contact {
+  text-align: center;
+  padding-top: 75px;
+  font-size: 2em;
 }
